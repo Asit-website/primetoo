@@ -273,10 +273,10 @@
                     </div><!-- end of nav-collapse -->
                     <a href="#" class="theme-btn-s2 request-quote" onclick="openForm()">Request Quote</a>
                     <div class="form-popup" id="myForm">
-                        <form id="myPar" action="action_page.php"  class="form-container" method="post">
+                        <form id="myPar" action="https://<?php echo $_SERVER['SERVER_NAME']; ?>/action_page.php"  class="form-container" method="post">
                         <!-- action="mailto:sales@primetoolsindia.com,info@primetoolsindia.com" -->
                             <h1 style="text-align: center;">Get Quote</h1>
-                            <!-- https://<?php echo $_SERVER['SERVER_NAME']; ?>/mailto:asitmandal492@gmail.com -->
+                           <!-- mailto:asitmandal492@gmail.com -->
                             <input type="text" placeholder="Name*" name="name" required>
                             <input type="text" placeholder="Email*" name="email" required>
                             <input type="text" placeholder="Enquire now..." name="query" required>
